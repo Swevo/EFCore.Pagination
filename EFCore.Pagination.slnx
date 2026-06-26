@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EFCore.Pagination/EFCore.Pagination.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EFCore.Pagination.Tests/EFCore.Pagination.Tests.csproj" />
+  </Folder>
+</Solution>
