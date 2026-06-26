@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
 
     <PackageId>Swevo.EFCore.Pagination</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Justin Bannister</Authors>
     <Copyright>Copyright (c) 2026 Justin Bannister</Copyright>
     <Description>Offset and cursor-based pagination for EF Core. ToPageAsync for offset pagination with TotalCount/TotalPages/HasNextPage. ToCursorPageAsync for keyset pagination with opaque Base64 cursors. Zero extra dependencies beyond EF Core.</Description>
