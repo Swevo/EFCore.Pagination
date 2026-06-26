@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <PackageId>Swevo.EFCore.Pagination</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Justin Bannister</Authors>
+    <Copyright>Copyright (c) 2026 Justin Bannister</Copyright>
+    <Description>Offset and cursor-based pagination for EF Core. ToPageAsync for offset pagination with TotalCount/TotalPages/HasNextPage. ToCursorPageAsync for keyset pagination with opaque Base64 cursors. Zero extra dependencies beyond EF Core.</Description>
+    <PackageTags>efcore;pagination;cursor;keyset;offset;dotnet;csharp;entityframework;page;iquerylable</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Swevo/EFCore.Pagination</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Swevo/EFCore.Pagination</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageIcon>icon.png</PackageIcon>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+    <PackageReleaseNotes>1.0.0: ToPageAsync (offset) and ToCursorPageAsync (keyset cursor) IQueryable extension methods. Page&lt;T&gt; and CursorPage&lt;T&gt; result types.</PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.*" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.*" PrivateAssets="all">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>
