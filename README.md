@@ -1,6 +1,7 @@
 # Swevo.EFCore.Pagination
 
-[![NuGet](https://img.shields.io/nuget/v/Swevo.EFCore.Pagination.svg)](https://www.nuget.org/packages/Swevo.EFCore.Pagination)
+[![NuGet](https://img.shields.io/nuget/v/Swevo.EFCore.Pagination
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Swevo.EFCore.Pagination.svg)](https://www.nuget.org/packages/Swevo.EFCore.Pagination).svg)](https://www.nuget.org/packages/Swevo.EFCore.Pagination)
 [![CI](https://github.com/Swevo/EFCore.Pagination/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/EFCore.Pagination/actions)
 
 Offset and cursor-based pagination for EF Core. Two extension methods on `IQueryable<T>`, two result types — nothing else.
